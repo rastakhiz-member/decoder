@@ -35,28 +35,23 @@ while x < 1:
     asd = input(Fore.RED+"\n ╔═══["+Fore.LIGHTYELLOW_EX+"root"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTYELLOW_EX+"rastakhiz"+Fore.RED+"]"+Fore.RED+"\n ╚══\x1b[38;2;0;255;189m>>> "+Fore.MAGENTA)
 
     if "1" in asd:
-        kok = input("")
+        kok = input(f"{magenta}ENTER YOUR  TEXT FOR ENCODE {red}• {green}➺  ")
         kok1 = base64.b64encode(kok.encode('UTF-8')).decode('ascii')
         print(f"""
     {red}---------------------------------
     {red}- {green}done {kok1}
-    {red}---------------------------------
-    """)
+    {red}---------------------------------""")
+        input(f"\n{magenta}Press the ENTER button {red}• {green}➺  ")
     elif "2" in asd:
-        kok3 = input("kdfggh ")
+        kok3 = input(f"{magenta}ENTER YOUR HASH FOR DECODE {red}• {green}➺  ")
         kok4 = base64.b64decode(kok3)
         kok5 = kok4.decode('UTF-8')
         print(f"""
     {red}---------------------------------
     {red}- {green}done {kok5}
-    {red}---------------------------------
-    """)
+    {red}---------------------------------""")
+        input(f"\n{magenta}Press the ENTER button {red}• {green}➺  ")
     if "3" in asd:
         webbrowser.open('github.com/rastakhiz-member')
     if "4" in asd:
         webbrowser.open('rastakhizTM.t.me')
-
-
-#        {blue}created by {white}kia moghadam 
-#        {blue}github {white}github.com/rastakhiz-member      
-#        {blue}telegram {white}rastakhizTM.t.meb
